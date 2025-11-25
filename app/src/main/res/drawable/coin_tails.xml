@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Coin background circle -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+    
+    <!-- Coin inner circle (shadow) -->
+    <path
+        android:fillColor="#A9A9A9"
+        android:pathData="M100,100m-85,0a85,85 0,1 1,170 0a85,85 0,1 1,-170 0" />
+    
+    <!-- Coin highlight -->
+    <path
+        android:fillColor="#D3D3D3"
+        android:pathData="M100,100m-75,0a75,75 0,1 1,150 0a75,75 0,1 1,-150 0" />
+    
+    <!-- Eagle/Bird silhouette for tails -->
+    <path
+        android:fillColor="#696969"
+        android:pathData="M100,45 
+                         L90,60 L75,55 L85,70 L70,75 
+                         L85,85 L80,100 L90,95 L95,110 
+                         L100,100 L105,110 L110,95 L120,100 
+                         L115,85 L130,75 L115,70 L125,55 L110,60 Z" />
+    
+    <!-- Bird body -->
+    <path
+        android:fillColor="#505050"
+        android:pathData="M100,90 
+                         C85,95 80,110 85,125 
+                         L95,120 L100,130 L105,120 L115,125 
+                         C120,110 115,95 100,90 Z" />
+    
+    <!-- Letter T for Tails -->
+    <path
+        android:fillColor="#404040"
+        android:pathData="M50,155 L50,162 L58,162 L58,175 L68,175 L68,162 L76,162 L76,155 Z" />
+    
+    <!-- Letter A -->
+    <path
+        android:fillColor="#404040"
+        android:pathData="M80,175 L88,155 L98,155 L106,175 L96,175 L95,171 L91,171 L90,175 Z M93,162 L91,168 L95,168 Z" />
+    
+    <!-- Letter I -->
+    <path
+        android:fillColor="#404040"
+        android:pathData="M110,155 L110,175 L120,175 L120,155 Z" />
+    
+    <!-- Letter L -->
+    <path
+        android:fillColor="#404040"
+        android:pathData="M125,155 L125,175 L145,175 L145,168 L135,168 L135,155 Z" />
+    
+    <!-- Letter S -->
+    <path
+        android:fillColor="#404040"
+        android:pathData="M148,155 L148,160 L158,160 L158,163 L148,163 L148,175 L168,175 L168,170 L158,170 L158,167 L168,167 L168,155 Z" />
+
+</vector>

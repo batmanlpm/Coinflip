@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+    
+    <!-- Inner circle -->
+    <path
+        android:fillColor="#A9A9A9"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" />
+    
+    <!-- Center highlight -->
+    <path
+        android:fillColor="#D3D3D3"
+        android:pathData="M100,100m-65,0a65,65 0,1 1,130 0a65,65 0,1 1,-130 0" />
+    
+    <!-- Number indicator box -->
+    <path
+        android:fillColor="#505050"
+        android:pathData="M85,85 L115,85 L115,115 L85,115 Z" />
+        
+    <!-- T letter -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,90 L112,90 L112,95 L103,95 L103,110 L97,110 L97,95 L88,95 Z" />
+    
+    <!-- Number 3 indicator -->
+    <path
+        android:fillColor="#505050"
+        android:pathData="M75,130 L125,130 L125,150 L75,150 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,135 L115,135 L115,145 L85,145 Z" />
+</vector>
