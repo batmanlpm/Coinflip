@@ -28,12 +28,7 @@ class MainActivity : AppCompatActivity() {
         R.drawable.nsfw_heads_2,
         R.drawable.nsfw_heads_3,
         R.drawable.nsfw_heads_4,
-        R.drawable.nsfw_heads_5,
-        R.drawable.nsfw_heads_6,
-        R.drawable.nsfw_heads_7,
-        R.drawable.nsfw_heads_8,
-        R.drawable.nsfw_heads_9,
-        R.drawable.nsfw_heads_10
+        R.drawable.nsfw_heads_5
     )
 
     private val nsfwTailsImages = intArrayOf(
@@ -41,12 +36,7 @@ class MainActivity : AppCompatActivity() {
         R.drawable.nsfw_tails_2,
         R.drawable.nsfw_tails_3,
         R.drawable.nsfw_tails_4,
-        R.drawable.nsfw_tails_5,
-        R.drawable.nsfw_tails_6,
-        R.drawable.nsfw_tails_7,
-        R.drawable.nsfw_tails_8,
-        R.drawable.nsfw_tails_9,
-        R.drawable.nsfw_tails_10
+        R.drawable.nsfw_tails_5
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

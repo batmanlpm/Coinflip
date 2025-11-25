@@ -6,7 +6,7 @@ Coin flip application for Android.
 - **Coin Flip Animation**: Realistic coin flipping animation with rotation, bounce, and scale effects
 - **Sound Effects**: Metallic coin flip sound when flipping
 - **NSFW Mode**: Toggle switch to enable NSFW mode with pre-loaded custom images
-- **Random Image Selection**: In NSFW mode, randomly selects from 10 heads images and 10 tails images
+- **Random Image Selection**: In NSFW mode, randomly selects from 5 heads images and 5 tails images
 - **Persistent Settings**: Your mode preference is saved between app sessions
 
 ## How to Use
@@ -19,8 +19,8 @@ Coin flip application for Android.
 ## Customizing NSFW Images
 
 To add your own NSFW images, replace the placeholder files in:
-- `app/src/main/res/drawable/nsfw_heads_1.xml` through `nsfw_heads_10.xml` for heads images
-- `app/src/main/res/drawable/nsfw_tails_1.xml` through `nsfw_tails_10.xml` for tails images
+- `app/src/main/res/drawable/nsfw_heads_1.xml` through `nsfw_heads_5.xml` for heads images
+- `app/src/main/res/drawable/nsfw_tails_1.xml` through `nsfw_tails_5.xml` for tails images
 
 You can replace these XML vector files with PNG/JPG images by:
 1. Deleting the XML files
